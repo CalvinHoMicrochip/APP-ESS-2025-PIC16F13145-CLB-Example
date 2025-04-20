@@ -13,3 +13,9 @@ Microchip 的 DISCOVER 有 WS2812 的範例程式，可以控制 32*8 的 LED �
 * [Microchip DISCOVER WS2812 範例連結](https://mplab-discover.microchip.com/v2/item/com.microchip.code.examples/com.microchip.ide.project/com.microchip.subcategories.modules-and-peripherals.communication.spi/com.microchip.mcu8.mplabx.project.pic16f13145-spi-ws2812-mplab-mcc/1.2.0?view=about&dsl=CLB)
 * 以下是這個範例的 CLB 設計，與 CLC 完成的 SPI to WS2012 不同的是 SPI 的輸出入可以經由 CLBSWIN0 來控制要經由 PPS 的硬體輸出 (PPS_OUT1 & PPS_OUT2)或是到 WS2812 的控制區塊 SPI_to_WS2812 然後輸出到 PPS_OUT7
 <img src="https://github.com/CalvinHoMicrochip/APP-ESS-2025-PIC16F13145-CLB-Example/blob/main/CLB_WS2812_32x8_DISCOVER.png" width="640px">
+
+* 執行的結果被簡化如下 :
+  * LED1 顯示紅色、LED2 顯示綠色、LED3 顯示藍色
+  * 顯示的順序為 : Red -> Green -> Blue -> Green ，然後一直循環
+  * 您可以自行很輕易地修改為自己想要的顯示方式和調色
+  
