@@ -10,5 +10,5 @@ APP-ESS-2025 PIC16F13145 MCU CLB 的範例，包含電路圖以及範例程式
     * Dedicated 3-bit hardware counter
 #  Example-1 : CLB 控制 WS2812 RGB LED
 Microchip 的 DISCOVER 有 WS2812 的範例程式，可以控制 32*8 的 LED 矩陣
-* Microchip DISCOVER WS2812 範例連結 
+* [Microchip DISCOVER WS2812 範例連結](https://mplab-discover.microchip.com/v2/item/com.microchip.code.examples/com.microchip.ide.project/com.microchip.subcategories.modules-and-peripherals.communication.spi/com.microchip.mcu8.mplabx.project.pic16f13145-spi-ws2812-mplab-mcc/1.2.0?view=about&dsl=CLB)
 
