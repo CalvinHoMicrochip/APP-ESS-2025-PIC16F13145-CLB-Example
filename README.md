@@ -25,7 +25,7 @@ Microchip 的 DISCOVER 有 WS2812 的範例程式，可以控制 32*8 的 LED �
 * 這個 Example 功能非常簡單，主要的 CLB 規劃如下
   * 使用 4-bit up/down counter 的 Module
   * 因為直接做 2 相機磁，所以只有 4 個步階。我們只用到 counter 以及 LUT 的兩個 bit，其他可以不用。
-<img src="" width="480px">
+<img src="https://github.com/CalvinHoMicrochip/APP-ESS-2025-PIC16F13145-CLB-Example/blob/main/CLB_Main_PIC16F15145.jpg" width="640px">
 
 * 程式的動作是每次按下 APP-ESS-2025 的 SW4 後，就讓步進馬達轉動 200 個 Steps，因為馬達是 1.8度的馬達，所以 200 個 Step 剛好會轉一圈。
 
