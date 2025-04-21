@@ -22,4 +22,5 @@ Microchip 的 DISCOVER 有 WS2812 的範例程式，可以控制 32*8 的 LED �
 
 #  Example-2 : CLB 控制 四線式步進馬達
 步進馬達的控制雖並非難事，工程師們也可以在市場上找到許多好用的智能型步進馬達控制IC。此範例是為了展現 CLB 如何使用 MCU 中的 Timer 為時間基準，配合 CLB 的 Timer & Look-Up-Table 來產生步進馬達所需的控制信號，用最簡單的方式來印證 CLB 的彈性及方便性。
+
 <img src="https://github.com/CalvinHoMicrochip/APP-ESS-2025-PIC16F13145-CLB-Example/blob/main/APP_ESS2025_with_Motor.jpg" width="480px">
