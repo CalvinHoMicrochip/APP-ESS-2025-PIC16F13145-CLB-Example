@@ -15,10 +15,10 @@ Microchip 的 DISCOVER 有 WS2812 的範例程式，可以控制 32*8 的 LED �
 <img src="https://github.com/CalvinHoMicrochip/APP-ESS-2025-PIC16F13145-CLB-Example/blob/main/CLB_WS2812_32x8_DISCOVER.png" width="640px">
 
 * 執行的結果被簡化如下 :
-  * LED1 顯示紅色、LED2 顯示綠色、LED3 顯示藍色
+  * LED9 顯示紅色、LED10 顯示綠色、LED11 顯示藍色
   * 顯示的順序為 : Red -> Green -> Blue -> Green ，然後一直循環
   * 您可以自行很輕易地修改為自己想要的顯示方式和調色
-<img src="" width="480px">
+<img src="https://github.com/CalvinHoMicrochip/APP-ESS-2025-PIC16F13145-CLB-Example/blob/main/APP_ESS2025_WS2812.jpg" width="320px">
 
 #  Example-2 : CLB 控制 四線式步進馬達
 步進馬達的控制雖並非難事，工程師們也可以在市場上找到許多好用的智能型步進馬達控制IC。此範例是為了展現 CLB 如何使用 MCU 中的 Timer 為時間基準，配合 CLB 的 Timer & Look-Up-Table 來產生步進馬達所需的控制信號，用最簡單的方式來印證 CLB 的彈性及方便性。
